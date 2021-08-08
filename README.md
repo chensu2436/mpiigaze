@@ -1,5 +1,7 @@
 # A PyTorch implementation of MPIIGaze and MPIIFaceGaze
 
+## Report
+Checkout the report Project_Report.pdf
 
 ## Requirements
 
@@ -7,9 +9,8 @@
 * Python >= 3.7
 
 
-## Download the dataset and preprocess it
 
-### MPIIFaceGaze
+## MPIIFaceGaze
 
 
 ```bash
@@ -19,7 +20,7 @@ Save this dataset.
 Now run the MPIIGaze_1_1.ipynb notebook cell by cell with a.py given in the repo. 
 Now run the Output.ipynb notebook cell by cell.
 
-### Resnet
+## Resnet
 Update ~/pytorch_mpiigaze/gaze_estimation/models/mpiigaze/resnet_preact.py by code in resnet_preact_1.py
 ```bash
 python3 tools/preprocess_mpiifacegaze.py --dataset datasets/MPIIFaceGaze_normalized -o datasets/
@@ -31,7 +32,7 @@ python evaluate.py --config configs/mpiigaze/resnet_eval.yaml
 Note that we have to set test index and saved model path in both resnet_train.yaml and resnet_eval.yaml
 
 
-### Combined Model
+## Combined Model
 
 
 Restore the previous ~/pytorch_mpiigaze/gaze_estimation/models/mpiigaze/resnet_preact.py if the above model is run.

@@ -10,7 +10,7 @@ Checkout the report Project_Report.pdf
 
 
 
-## MPIIFaceGaze
+## Faze Model
 
 
 ```bash

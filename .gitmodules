@@ -1,0 +1,3 @@
+[submodule "pytorch_mpiigaze"]
+	path = pytorch_mpiigaze
+	url = https://github.com/visirion07/pytorch_mpiigaze.git

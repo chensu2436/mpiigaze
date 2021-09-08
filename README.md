@@ -23,8 +23,8 @@ Now run the Output.ipynb notebook cell by cell.
 ## Resnet
 Update ~/pytorch_mpiigaze/gaze_estimation/models/mpiigaze/resnet_preact.py by code in resnet_preact_1.py
 ```bash
-python3 tools/preprocess_mpiifacegaze.py --dataset datasets/MPIIFaceGaze_normalized -o datasets/
-python3 tools/preprocess_mpiifacegaze.py --dataset datasets/MPIIFaceGaze_normalized -o datasets/
+bash scripts/download_mpiigaze_dataset.sh
+python tools/preprocess_mpiigaze.py --dataset datasets/MPIIGaze -o datasets/
 python train.py --config configs/mpiigaze/resnet_train.yaml
 python evaluate.py --config configs/mpiigaze/resnet_eval.yaml
 ```

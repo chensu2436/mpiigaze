@@ -38,7 +38,7 @@ Note that we have to set test index and saved model path in both resnet_train.ya
 Restore the previous ~/pytorch_mpiigaze/gaze_estimation/models/mpiigaze/resnet_preact.py if the above model is run.
 ```bash
 git clone https://github.com/visirion07/pytorch_mpiigaze.git
-cd /content/pytorch_mpiigaze
+cd pytorch_mpiigaze
 pip install -r requirements.txt
 python train2.py --config configs/mpiigaze/resnet_preact_train.yaml
 python evaluate.py --config configs/mpiigaze/resnet_preact_eval.yaml

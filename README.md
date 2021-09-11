@@ -12,11 +12,7 @@ Checkout the report Project_Report.pdf
 
 ## Faze Model
 
-
-```bash
-bash scripts/download_mpiigaze_dataset.sh
-```
-Save this dataset. 
+Download and save the dataset. 
 Now run the MPIIGaze_1_1.ipynb notebook cell by cell with a.py given in the repo. 
 Now run the Output.ipynb notebook cell by cell.
 
